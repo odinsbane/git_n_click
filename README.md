@@ -13,19 +13,22 @@ directory 'repo' and change into it.
 
     pwd
 
-```/Users/username/Desktop/repo
+```
+/Users/username/Desktop/repo
 ```
     
 Then I can create/ initialize the repository.
 
     git init
-```Initialized empty Git repository in /Users/username/Desktop/repo/.git/
+```
+Initialized empty Git repository in /Users/username/Desktop/repo/.git/
 ```    
 We can check the status.
 
     git status
 
-```# On branch master
+```
+# On branch master
 #
 # Initial commit
 #
@@ -40,7 +43,8 @@ We save that to a file named `.gitingore` in our repo.
 
     git status
 
-```# On branch master
+```
+# On branch master
 #
 # Initial commit
 #
@@ -56,7 +60,8 @@ So git recognizes the file, but it hasn't been added.
     git add .gitingore
     git status
 
-```# On branch master
+```
+# On branch master
 #
 # Initial commit
 #
@@ -71,7 +76,8 @@ Lastly we want to commit are changes.
 
     git commit -m "added .gitignore file"
     
-```[master (root-commit) b48ac47] added .gitignore file
+```
+[master (root-commit) b48ac47] added .gitignore file
  1 file changed, 124 insertions(+)
  create mode 100644 .gitignore
 ```
@@ -97,7 +103,8 @@ practice to keep your source files in their own folder.
     touch click_example.py
     git status
     
-```# Untracked files:
+```
+# Untracked files:
 #   (use "git add <file>..." to include in what will be committed)
 #
 #	src/
@@ -105,7 +112,8 @@ practice to keep your source files in their own folder.
 
 It doesn't see the .py file because we haven't added the source folder.
 
-```# Changes to be committed:
+```
+# Changes to be committed:
 #   (use "git reset HEAD <file>..." to unstage)
 #
 #	new file:   src/click_example.py
