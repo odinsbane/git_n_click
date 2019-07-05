@@ -13,21 +13,21 @@ directory 'repo' and change into it.
 
     pwd
 
-```
+```console
 /Users/username/Desktop/repo
 ```
     
 Then I can create/ initialize the repository.
 
     git init
-```
+```console
 Initialized empty Git repository in /Users/username/Desktop/repo/.git/
 ```    
 We can check the status.
 
     git status
 
-```
+```console
 # On branch master
 #
 # Initial commit
@@ -36,14 +36,14 @@ nothing to commit (create/copy files and use "git add" to track)
 ```
 Using a `.gitignore` file allows us to ignore files that we don't want to
 track. For example .pyc files that are generated. Since we're using 
-python github has some pre-assembled .gitignore files. [.gitignore]
-(https://github.com/github/gitignore/blob/master/Python.gitignore).
+python github has some pre-assembled .gitignore files. 
+[.gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore).
 
 We save that to a file named `.gitingore` in our repo.
 
     git status
 
-```
+```console
 # On branch master
 #
 # Initial commit
@@ -60,7 +60,7 @@ So git recognizes the file, but it hasn't been added.
     git add .gitingore
     git status
 
-```
+```console
 # On branch master
 #
 # Initial commit
@@ -76,7 +76,7 @@ Lastly we want to commit are changes.
 
     git commit -m "added .gitignore file"
     
-```
+```console
 [master (root-commit) b48ac47] added .gitignore file
  1 file changed, 124 insertions(+)
  create mode 100644 .gitignore
@@ -103,7 +103,7 @@ practice to keep your source files in their own folder.
     touch click_example.py
     git status
     
-```
+```console
 # Untracked files:
 #   (use "git add <file>..." to include in what will be committed)
 #
@@ -112,7 +112,7 @@ practice to keep your source files in their own folder.
 
 It doesn't see the .py file because we haven't added the source folder.
 
-```
+```console
 # Changes to be committed:
 #   (use "git reset HEAD <file>..." to unstage)
 #
