@@ -119,4 +119,7 @@ It doesn't see the .py file because we haven't added the source folder.
 #	new file:   src/click_example.py
 ```
     
+# Using click.
 
+In the file `click_example.py` is a python script that can be run and
+it will print the command line options supplied.
