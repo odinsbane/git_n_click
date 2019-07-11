@@ -123,3 +123,12 @@ It doesn't see the .py file because we haven't added the source folder.
 
 In the file `click_example.py` is a python script that can be run and
 it will print the command line options supplied.
+
+# Using a Virtual Environment.
+
+The next section will outline how to create a virtual environment, and
+use it to run our script.
+
+For starters ssh to the other computer in the lab. Once at the login, 
+change to the 'Desktop' folder. 
+
