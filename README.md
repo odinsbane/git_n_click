@@ -133,7 +133,7 @@ For starters ssh to the other computer in the lab. Once at the login,
 change to the 'Desktop' folder. First we'll create a virtual environment.
 
 ```console
-    python3 -m "gc-env"
+    python3 -m venv "gc-env"
 ```
 
 After the command has finished there should be a new directory called
@@ -187,7 +187,7 @@ python git_n_click/src/click_example.py
 
 This should run the program.
 
-#Methods to run our program.
+# Methods to run our program.
 
 Right now, we have a respository with our source code, and a virtual
 environment that we can use to run our code.
