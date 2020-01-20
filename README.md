@@ -252,14 +252,14 @@ export PYTHONPATH=/home/username/Desktop/git_n_click/src:$PYTHONPATH
 
 ```
 
-Now, our paths should be setup ok but 'pkg_example.py' is not in a directory
-on our path. We can run it another way.
+Now, our python library paths should be setup ok but 'pkg_example.py' is not in a directory
+on our shell search path. We can run it another way.
 
 ```console
 python -m example_pkg.pkg_example
 ```
 
-We can do this because it is on the sys.path, and it has a main() function.
+We can do this because it is on the sys.path, the file is run similar to calling `python /path/to/example_pkg/pkg_example.py`.
 
 
 ## Install to our virtual environment.
